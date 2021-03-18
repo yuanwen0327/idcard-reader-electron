@@ -16,7 +16,6 @@
     "electron-squirrel-startup": "^1.0.0",
     "ffi-napi": "^4.0.2",
     "iconv": "^3.0.0",
-    "ref-napi": "^3.0.1",
     "socket.io": "^3.1.2"
   },
   "devDependencies": {
