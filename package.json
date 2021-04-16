@@ -1,6 +1,6 @@
 {
   "name": "idcard-reader-electron",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ddd",
   "main": "main.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "make": "electron-forge make"
   },
   "keywords": [],
-  "author": "yuanwen",
+  "author": "ywReader",
   "license": "ISC",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",

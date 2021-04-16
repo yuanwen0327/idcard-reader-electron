@@ -60,7 +60,7 @@ if (!gotTheLock) {
     tray.setContextMenu(contextMenu)
 
     // createWindow()
-    sdk.init()
+    // sdk.init()
     io.init(8848)
     // sdk.cardOn()
     // sdk.read()

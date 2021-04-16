@@ -20,8 +20,9 @@ module.exports = {
             let timer = null
             socket.on("scanCard", () => {
                 console.log("scanCard");
+                sdk.init()
                 clearTimeout(timer)
-                let count = 15
+                let count = 100
                 poll()
                 // timer = null
                 function poll() {
@@ -44,7 +45,7 @@ module.exports = {
                             console.log(`还剩${count}次机会`)
                             poll() 
                         }
-                    }, 2000)
+                    }, 500)
                 }
 
 

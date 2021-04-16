@@ -9,7 +9,7 @@ module.exports = {
       config: {
         // setupExe: "身份证阅读器安装包.exe",
         // name: "idCardReader",
-        authors: "yuanwen0327@outlook.com",
+        authors: "身份证阅读器",
         noDelta: true
         // "iconUrl": "assets/card.ico"
       }
